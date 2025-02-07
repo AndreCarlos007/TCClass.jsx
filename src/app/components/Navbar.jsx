@@ -5,9 +5,8 @@ import { IoNotifications } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className=" bg-bgWhite border-b-4 border-black z-10 ">
-      <nav className="mx-28 my-7  ">
-        <div className="flex w-full h-4 justify-between items-center">
+    <div className=" bg-bgWhite w-full max-w-[100vw] border-b-2 border-black z-10 ">
+        <div className="flex h-4 justify-between items-center mx-28 my-7">
           <div>
             <Link href='/Home'>
                 <Image src='/Logo.AVIF' alt="Logo TCClass" 
@@ -18,7 +17,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="flex gap-10 text-[1rem] text-colorPrimary font-medium ">
+          <div className="gap-5 text-[1rem] text-colorPrimary font-medium ">
 
             <Link href='/Home' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">Inicio</Link>
             <Link href='/Sobre' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">Sobre</Link>
@@ -36,7 +35,6 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-      </nav>
     </div>
   );
 };
