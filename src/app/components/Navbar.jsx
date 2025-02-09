@@ -19,12 +19,12 @@ const Navbar = () => {
 
           <div className="gap-5 text-[1rem] text-colorPrimary font-medium ">
 
-            <Link href='/Home' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">Inicio</Link>
-            <Link href='/Sobre' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">Sobre</Link>
-            <Link href='/Tccia' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">TCClass-IA</Link>
-            <Link href='/Tccprof' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">TCClass-Prof</Link>
-            <Link href='/Feedbacks' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">Feedbacks</Link>
-            <Link href='/Contato' className="hover:bg-colorSecundary  px-3 py-2 hover:rounded-[1.6rem]">Contato</Link>
+            <Link href='/Home' className="hover:bg-colorSecundary  px-6 py-2 hover:rounded-[1.6rem]">Inicio</Link>
+            <Link href='/Sobre' className="hover:bg-colorSecundary  px-6 py-2 hover:rounded-[1.6rem]">Sobre</Link>
+            <Link href='/Tccia' className="hover:bg-colorSecundary  px-6 py-2 hover:rounded-[1.6rem]">TCClass-IA</Link>
+            <Link href='/Tccprof' className="hover:bg-colorSecundary  px-6 py-2 hover:rounded-[1.6rem]">TCClass-Prof</Link>
+            <Link href='/Feedbacks' className="hover:bg-colorSecundary  px-6 py-2 hover:rounded-[1.6rem]">Feedbacks</Link>
+            <Link href='/Contato' className="hover:bg-colorSecundary  px-6 py-2 hover:rounded-[1.6rem]">Contato</Link>
           </div>
           <div className="flex flex-row gap-7 text-[2rem] text-colorPrimary">
             <Link href='/Usuario'>

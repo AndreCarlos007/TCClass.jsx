@@ -1,6 +1,7 @@
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Sobre from "./components/Sobre"
+import Tccia from "./components/Tccia"
 
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
       <Navbar />
       <Home />
       <Sobre />
+      {/* <Tccia /> */}
     </div>
   )
 }

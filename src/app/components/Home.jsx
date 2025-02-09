@@ -4,16 +4,16 @@ const Home = () => {
   return (
     <div>
       <div
-        className="relative bg-cover w-full max-w-[100vw] h-screen max-h-[81vh] pb-28 order-1"
+        className="relative bg-cover w-full max-w-[100vw] h-screen max-h-[81vh]"
         style={{ backgroundImage: "url(/backgroundHom.AVIF)" }}
       >
         <div className="">
-          <div className="flex justify-center items-center gap-10">
+          <div className="flex justify-center items-center gap-10 pt-12">
             <div>
               <div className=" flex flex-col max-w-[30rem] text-colorWhite">
                 <h1 className="text-[4rem] font-black leading-[4rem]">
                   Revise e Corrija{" "}
-                  <span className="text-colorTree">seus Tccs!</span>
+                  <span className="text-colorTree">seu Tcc!</span>
                 </h1>
                 <span className="text-[1.3rem] font-light italic">
                   Rápido e fácil... em poucos segundos...
@@ -28,10 +28,10 @@ const Home = () => {
                     Se conecte para usufruir <br /> de nossos recursos!
                   </span>
                 </div>
-                <button className="bg-colorPrimary hover:bg-[#13383a4e] px-4 py-2 rounded-3xl font-semibold text-colorWhite">
+                <button className="bg-colorPrimary hover:bg-[#151a2c4e] px-4 py-2 rounded-3xl font-semibold text-colorWhite">
                   Entrar
                 </button>
-                <button className="bg-colorTree hover:bg-[#13383a4e] px-5 py-2 rounded-3xl font-semibold text-colorWhite">
+                <button className="bg-colorTree hover:bg-[#151a2c4e] px-5 py-2 rounded-3xl font-semibold text-colorWhite">
                   Cadastre-se
                 </button>
               </div>
@@ -45,8 +45,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
-        <FaArrowCircleDown className="text-colorPrimary cursor-pointer relative bottom-7 right-[-47.5vw] text-[4rem] border-[6px] border-white bg-white rounded-full z-20 " />
+      <div className="bg-colorSecundary">
+        <FaArrowCircleDown className="text-colorPrimary cursor-pointer relative bottom-7 right-[-47.5vw] text-[4rem] border-[6px] border-colorSecundary bg-colorSecundary  rounded-full z-20 " />
       </div>
     </div>
   );
