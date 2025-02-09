@@ -128,7 +128,7 @@ const Sobre = () => {
             </div>
 
             <div className="flex justify-start items-start pt-10">
-              <button className=" bg-colorPrimary hover:bg-[#151a2c4e] shadow-2xl px-40 py-2 rounded-lg text-colorWhite font-semibold">
+              <button className=" bg-colorPrimary hover:bg-[#151a2c4e] shadow-2xl px-40 py-2 rounded-lg text-colorWhite font-semibold transition-all duration-300">
                 SAIBA MAIS
               </button>
             </div>

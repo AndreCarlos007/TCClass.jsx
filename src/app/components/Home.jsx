@@ -28,10 +28,10 @@ const Home = () => {
                     Se conecte para usufruir <br /> de nossos recursos!
                   </span>
                 </div>
-                <button className="bg-colorPrimary hover:bg-[#151a2c4e] px-4 py-2 rounded-3xl font-semibold text-colorWhite">
+                <button className="bg-colorPrimary hover:bg-[#151a2c4e] px-4 py-2 rounded-3xl font-semibold text-colorWhite transition-all duration-300">
                   Entrar
                 </button>
-                <button className="bg-colorTree hover:bg-[#151a2c4e] px-5 py-2 rounded-3xl font-semibold text-colorWhite">
+                <button className="bg-colorTree hover:bg-[#151a2c4e] px-5 py-2 rounded-3xl font-semibold text-colorWhite transition-all duration-300">
                   Cadastre-se
                 </button>
               </div>
