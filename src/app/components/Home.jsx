@@ -5,7 +5,7 @@ const Home = () => {
     <div>
       <div
         className="relative bg-cover w-full max-w-[100vw] h-screen max-h-[81vh]"
-        style={{ backgroundImage: "url(/backgroundHom.AVIF)" }}
+        style={{ backgroundImage: "url(/BackgroundHom.AVIF)" }}
       >
         <div className="">
           <div className="flex justify-center items-center gap-10 pt-12">
