@@ -4,14 +4,14 @@ const Home = () => {
   return (
     <div>
       <div
-        className="relative bg-cover w-full max-w-[100vw] h-screen max-h-[81vh]"
+        className="relative bg-top bg-cover w-full max-w-[100vw] h-screen max-h-[90vh]"
         style={{ backgroundImage: "url(/BackgroundHom.AVIF)" }}
       >
         <div className="">
-          <div className="flex justify-center items-center gap-10 pt-12">
-            <div>
-              <div className=" flex flex-col max-w-[30rem] text-colorWhite">
-                <h1 className="text-[4rem] font-black leading-[4rem]">
+          <div className="flex flex-col md:flex-row justify-center items-center sm:gap-5 md:gap-0 pt-20 lg:gap-10 md:pt-12">
+            <div className="sm:mt-8">
+              <div className=" flex flex-col max-w-[17.8rem] md:max-w-[30rem] text-colorWhite">
+                <h1 className=" text-[2rem] md:text-[4rem] font-black leading-[2rem] md:leading-[4rem]">
                   Revise e Corrija{" "}
                   <span className="text-colorTree">seu Tcc!</span>
                 </h1>
@@ -21,8 +21,8 @@ const Home = () => {
                 </span>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <div className=" shadow-2xl px-[2.5rem] py-[2.5rem] rounded-2xl  bg-gray-300  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20  flex flex-col gap-2 text-center mt-28">
+            <div className="flex flex-col items-center gap-1">
+              <div className=" shadow-2xl px-[1rem] py-[0.5rem] md:px-[2.5rem] md:py-[2.5rem] rounded-2xl  bg-gray-300  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20  flex flex-col gap-2 text-center mt-1 md:mt-28">
                 <div className="">
                   <span className="text-[1.2rem] text-colorWhite font-light">
                     Se conecte para usufruir <br /> de nossos recursos!
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-colorSecundary">
-        <FaArrowCircleDown className="text-colorPrimary cursor-pointer relative bottom-7 right-[-47.5vw] text-[4rem] border-[6px] border-colorSecundary bg-colorSecundary  rounded-full z-20 " />
+        <FaArrowCircleDown className="text-colorPrimary cursor-pointer relative bottom-7 left-[40vw] md:left-[47.5vw] text-[4rem] border-[6px] border-colorSecundary bg-colorSecundary  rounded-full z-20 " />
       </div>
     </div>
   );
