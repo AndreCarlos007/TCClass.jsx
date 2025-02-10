@@ -8,10 +8,6 @@ const Tccia = () => {
       style={{ backgroundImage: "url(/test3.svg)" }}
     >
       <div className="h-screen">
-        {/* <div className="absolute mt-16 ml-10">
-          <Image src="/line.svg" alt="Linha segmentada" width={60} height={100} ></Image>
-        </div> */}
-
         <div className="flex pt-36 justify-center gap-24 items-center">
           <div className="max-w-[30rem] pt-20">
             <h1 className="font-bold text-colorPrimary text-[4rem]">
@@ -86,48 +82,88 @@ const Tccia = () => {
           </div>
 
           <div className="flex flex-col">
+            <div className="">
+              <div className="bg-colorSecundary px-[4rem] py-[6rem] rounded-2xl shadow-2xl flex flex-col justify-center items-center">
+                <button className="bg-colorPrimary hover:bg-[#151a2c4e] w-[10rem] px-1 mt-5 py-2 rounded-xl font-semibold text-colorWhite shadow-2xl transition-all duration-300">
+                  Faça Upload
+                </button>
 
-          <div className="">
-            <div className="bg-colorSecundary px-[4rem] py-[6rem] rounded-2xl shadow-2xl flex flex-col justify-center items-center">
-              <button className="bg-colorPrimary hover:bg-[#151a2c4e] w-[10rem] px-1 mt-5 py-2 rounded-xl font-semibold text-colorWhite shadow-2xl transition-all duration-300">
-                Faça Upload
-              </button>
-
-              <p className="text-colorPrimary text-[1.5rem] font-semibold pt-5">Ou arraste seu arquivo,</p>
-              <span className="text-colorPrimary font-light text-[0.8rem]"> Voce será redirecionado para outra página...</span>
+                <p className="text-colorPrimary text-[1.5rem] font-semibold pt-5">
+                  Ou arraste seu arquivo,
+                </p>
+                <span className="text-colorPrimary font-light text-[0.8rem]">
+                  {" "}
+                  Voce será redirecionado para outra página...
+                </span>
+              </div>
             </div>
-          </div>
 
-          <div className="mt-3 flex flex-col gap-2">
-            <p className="text-colorPrimary font-light">Qual parte lhe dá mais dificuldade em produzir seu TCC?</p>
-            <div className="flex flex-row gap-3">
+            <div className="mt-3 flex flex-col gap-2">
+              <p className="text-colorPrimary font-light">
+                Qual parte lhe dá mais dificuldade em produzir seu TCC?
+              </p>
+              <div className="flex flex-row gap-3">
+                <Link
+                  href="https://www.blogdoead.com.br/tag/vida-na-universidade/como-fazer-um-tcc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                    <Image
+                      src="/blogDoEad.png"
+                      alt="Blog do Ead de dicas para TCC"
+                      width={70}
+                      height={50}
+                    />
+                  </div>
+                </Link>
 
-            <Link href="https://www.blogdoead.com.br/tag/vida-na-universidade/como-fazer-um-tcc" rel="noopener noreferrer" target="_blank">
-            <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
-              <Image src="/blogDoEad.png" alt="Blog do Ead de dicas para TCC" width={70} height={50} />
+                <Link
+                  href="https://www.todamateria.com.br/conclusao-tcc/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                    <Image
+                      src="/logoTodaMateria.webp"
+                      alt="Blog do Ead de dicas para TCC"
+                      width={70}
+                      height={50}
+                    />
+                  </div>
+                </Link>
+
+                <Link
+                  href="https://www.normasabnt.org/trabalho-de-conclusao-de-curso/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                    <Image
+                      src="/logoNormasAbnt.png"
+                      alt="Blog do Ead de dicas para TCC"
+                      width={70}
+                      height={50}
+                    />
+                  </div>
+                </Link>
+
+                <Link
+                  href="https://www.faesa.br/blog/como-fazer-um-tcc-dicas-e-estrategias-eficazes"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                    <Image
+                      src="/logoFaesa.png"
+                      alt="Blog do Ead de dicas para TCC"
+                      width={70}
+                      height={50}
+                    />
+                  </div>
+                </Link>
+              </div>
             </div>
-            </Link>
-
-            <Link href="https://www.todamateria.com.br/conclusao-tcc/" rel="noopener noreferrer" target="_blank">
-            <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
-              <Image src="/logoTodaMateria.webp" alt="Blog do Ead de dicas para TCC" width={70} height={50} />
-            </div>
-            </Link>
-
-            <Link href="https://www.normasabnt.org/trabalho-de-conclusao-de-curso/" rel="noopener noreferrer" target="_blank">
-            <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
-              <Image src="/logoNormasAbnt.png" alt="Blog do Ead de dicas para TCC" width={70} height={50} />
-            </div>
-            </Link>
-
-            <Link href="https://www.faesa.br/blog/como-fazer-um-tcc-dicas-e-estrategias-eficazes"  rel="noopener noreferrer" target="_blank">
-            <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
-              <Image src="/logoFaesa.png" alt="Blog do Ead de dicas para TCC" width={70} height={50} />
-            </div>
-            </Link>
-            </div>
-          </div>
-
           </div>
         </div>
       </div>
