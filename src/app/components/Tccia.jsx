@@ -4,11 +4,11 @@ import Link from "next/link";
 const Tccia = () => {
   return (
     <div
-      className="max-w-[100vw] w-full bg-cover bg-right-top absolute "
+      className="max-w-[100vw] w-full bg-cover bg-right-top "
       style={{ backgroundImage: "url(/test3.svg)" }}
     >
-      <div className="h-screen mt-[34rem] md:mt-0">
-        <div className="flex pt-36 justify-center gap-24 items-center">
+      <div className="min-h-screen">
+        <div className="flex flex-col md:flex-row mx-8 pb-10 max-w-[100vw] pt-16 md:pt-36 justify-center gap-10 lg:gap-24 items-center">
           <div className="max-w-[30rem] pt-20">
             <h1 className="font-bold text-colorPrimary text-[4rem]">
               TCClass IA
