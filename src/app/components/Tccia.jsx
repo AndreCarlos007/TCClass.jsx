@@ -108,7 +108,7 @@ const Tccia = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md ">
                     <Image
                       src="/blogDoEad.png"
                       alt="Blog do Ead de dicas para TCC"
@@ -123,7 +123,7 @@ const Tccia = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md ">
                     <Image
                       src="/logoTodaMateria.webp"
                       alt="Blog do Ead de dicas para TCC"
@@ -138,7 +138,7 @@ const Tccia = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md ">
                     <Image
                       src="/logoNormasAbnt.png"
                       alt="Blog do Ead de dicas para TCC"
@@ -153,7 +153,7 @@ const Tccia = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md outline-[3px] outline-[#B9E5E8] outline">
+                  <div className="bg-colorPrimary w-10 h-10 p-1 flex justify-center items-center rounded-md ">
                     <Image
                       src="/logoFaesa.png"
                       alt="Blog do Ead de dicas para TCC"
