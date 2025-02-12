@@ -4,10 +4,10 @@ import Link from "next/link";
 const Tccia = () => {
   return (
     <div
-      className="relative max-w-[100vw] bg-cover bg-right-top "
+      className="max-w-[100vw] w-full bg-cover bg-right-top absolute "
       style={{ backgroundImage: "url(/test3.svg)" }}
     >
-      <div className="h-screen">
+      <div className="h-screen mt-[34rem] md:mt-0">
         <div className="flex pt-36 justify-center gap-24 items-center">
           <div className="max-w-[30rem] pt-20">
             <h1 className="font-bold text-colorPrimary text-[4rem]">

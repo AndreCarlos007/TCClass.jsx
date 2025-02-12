@@ -8,7 +8,7 @@ const Home = () => {
         style={{ backgroundImage: "url(/BackgroundHom.AVIF)" }}
       >
         <div className="">
-          <div className="flex flex-col md:flex-row justify-center items-center sm:gap-5 md:gap-0 pt-20 lg:gap-10 md:pt-12">
+          <div className="flex flex-col md:flex-row justify-center items-center mx-7 sm:gap-5 md:gap-0 pt-20 lg:gap-10 md:pt-12">
             <div className="sm:mt-8">
               <div className=" flex flex-col max-w-[17.8rem] md:max-w-[30rem] text-colorWhite">
                 <h1 className=" text-[2rem] md:text-[4rem] font-black leading-[2rem] md:leading-[4rem]">
@@ -45,8 +45,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-colorSecundary">
-        <FaArrowCircleDown className="text-colorPrimary cursor-pointer relative bottom-7 left-[40vw] md:left-[47.5vw] text-[4rem] border-[6px] border-colorSecundary bg-colorSecundary  rounded-full z-20 " />
+      <div className="bg-colorSecundary flex justify-center">
+        <FaArrowCircleDown className="text-colorPrimary cursor-pointer relative bottom-7 flex justify-center text-[4rem] border-[6px] border-colorSecundary bg-colorSecundary  rounded-full z-20 " />
       </div>
     </div>
   );

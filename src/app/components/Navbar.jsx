@@ -13,7 +13,7 @@ const Navbar = () => {
     setIsMenuAberto(!isMenuAberto);
   }
   return (
-    <div className=" bg-white w-full max-w-[100vw] border-b-2 border-black z-[100] fixed">
+    <div className=" bg-white w-full max-w-[100vw] border-b-2 border-black z-[101] fixed">
         <div className="flex h-4 justify-between items-center mx-4 md:mx-28 my-7">
           <div>
             <Link href='/Home'>

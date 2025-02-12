@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Sobre = () => {
   return (
-    <div className="relative max-w-[100vw] h-screen bg-colorSecundary ">
-      <div className="flex justify-center items-start gap-10 py-10 pt-28 h-screen">
-        <div>
-          <section className="text-colorPrimary max-w-[35rem]">
+    <div className="relative max-w-[100vw]  bg-colorSecundary z-[10] pt-[5vh] sm:pt-[6vh] md:pt-[4vh] lg:pt-[3vh] xl:pt-[2vh] 2xl:pt-[5vh] ">
+      <div className="flex flex-col lg:flex-row justify-center items-start  gap-10  mx-auto  h-full">
+        <div className="order-2 lg:-order-none">
+          <section className="text-colorPrimary max-w-[100vw] mx-8 lg:max-w-[35rem]">
             <div className="px-5 ">
               {/* Análise */}
-              <div className="flex items-center  mx-auto border-b pb-10 mb-10 border-gray-200 flex-row ">
+              <div className="flex items-center  mx-auto border-b pb-10  md:pb-10  border-gray-200 flex-row ">
                 <div className="h-20 w-20 mr-5 inline-flex items-center justify-center rounded-full bg-colorTree text-colorPrimary flex-shrink-0">
                   <svg
                     fill="none"
@@ -32,7 +32,7 @@ const Sobre = () => {
                 </div>
               </div>
               {/* Revisao */}
-              <div className="flex items-center mx-auto border-b pb-10 mb-10 border-gray-200 flex-row">
+              <div className="flex items-center mx-auto border-b pb-10 pt-8 mb-10 border-gray-200 flex-row">
                 <div className="flex-grow text-left mt-0">
                   <h2 className="text-colorPrimary text-lg title-font font-medium mb-2">
                     Revisão
@@ -41,8 +41,6 @@ const Sobre = () => {
                   Feedback detalhado com sugestões para aprimorar a escrita, estrutura e coesão do texto, sem reescrevê-lo.
                   </p>
                 </div>
-
-                {/* Profissionais Qualificados */}
                 <div className="w-20 h-20 ml-3 inline-flex items-center justify-center rounded-full bg-colorTree text-colorPrimary flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +56,9 @@ const Sobre = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex items-center mx-auto flex-row">
+
+              {/* Profissionais Qualificados */}
+              <div className="flex items-center mx-auto flex-row ">
                 <div className="w-20 h-20 mr-5 inline-flex items-center justify-center rounded-full bg-colorTree text-colorPrimary flex-shrink-0">
                   <svg
                     fill="none"
@@ -86,27 +86,28 @@ const Sobre = () => {
           </section>
         </div>
 
-        <div className="flex flex-col max-w-[40rem]">
-          <div>
+        <div className="flex flex-col md:pt-0 mx-8 max-w-[100vw]  lg:max-w-[31rem] order-1 lg:-order-none">
+          <div className="">
             <span className="text-colorPrimary text-[1.5rem] font-light">
               SOBRE NÓS
             </span>
-            <div className="flex items-center h-16 gap-5">
-              <h1 className="text-[3rem] text-colorPrimary font-semibold">
-                O que é a{" "}
+            <div className="flex items-center h-10 md:h-16 gap-5">
+              <h1 className="text-[1.4rem] sm:text-[1.5rem] md:text-[3rem] text-colorPrimary font-semibold">
+                O que é a
               </h1>
               <Image
                 src="/Logo.AVIF"
                 alt="Logo da seção Sobre"
-                className=""
+                className="w-24 md:w-48"
                 width={350}
                 height={50}
+               
               />
               <h1 className="text-[3rem] text-colorPrimary font-semibold">?</h1>
             </div>
 
-            <div className="text-[1rem] text-colorPrimary pt-4">
-              <p>
+            <div className="text-[1rem] text-colorPrimary pt-4 md:text-left">
+              <p className="text-justify">
                 Um projeto que tem como objetivo criar uma plataforma que
                 auxilia estudantes na revisão e correção de seus TCCs,
                 combinando inteligência artificial e suporte de professores
@@ -117,7 +118,7 @@ const Sobre = () => {
                 material.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 Além disso, a plataforma funcionará como um espaço para
                 freelancers acadêmicos, permitindo que alunos encontrem
                 professores para correção humanizada, mentoria e suporte na
@@ -128,7 +129,7 @@ const Sobre = () => {
             </div>
 
             <div className="flex justify-start items-start pt-10">
-              <button className=" bg-colorPrimary hover:bg-[#151a2c4e] shadow-2xl px-40 py-2 rounded-lg text-colorWhite font-semibold transition-all duration-300">
+              <button className=" bg-colorPrimary hover:bg-[#151a2c4e] shadow-2xl px-14 md:px-40 py-2 rounded-lg text-colorWhite font-semibold transition-all duration-300">
                 SAIBA MAIS
               </button>
             </div>
